@@ -1,5 +1,6 @@
 {
-  "name": "nuxt-app",
+  "name": "copymoji",
+  "packageManager": "yarn@1.22.19",
   "private": true,
   "type": "module",
   "scripts": {
