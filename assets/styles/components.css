@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+    .emoji-btn {
+        @apply hover-zoom text-[3rem] flex justify-center items-center;
+    }
+}
