@@ -1,4 +1,4 @@
-# Copymoji
+# Copymoji 👯‍♀️
 
 🚧 In development 🚧
 
@@ -12,6 +12,7 @@ This is a web app that allows desktop computer users to easily find and copy emo
 - Cloudflare
 - CSS3
 - HTML5
+- JavaScript
 - TailwindCSS
 - Vite.js
 - Vue.js
