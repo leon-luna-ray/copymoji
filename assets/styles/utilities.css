@@ -10,4 +10,12 @@
     .blue-border {
         @apply border-2 border-blue-500;
     }
+    .flex-col-center {
+        @apply flex flex-col items-center justify-center;
+    }
+
+    /* animations */
+    .hover-zoom {
+        @apply cursor-pointer transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300;
+    }
 }

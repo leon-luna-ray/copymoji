@@ -1,5 +1,5 @@
 <template>
-    <div class="container grid grid-cols-10">
+    <div class="container grid grid-cols-12">
         <div v-for="emoji in emojis.nature" class="emoji-btn" @click="copyToClipboard(emoji)">
             <span>
                 {{ emoji }}

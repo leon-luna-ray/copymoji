@@ -2,6 +2,9 @@
 
 @layer base {
     body {
-        @apply bg-black;
+        @apply dark:bg-gray-950 dark:text-white;
+    }
+    h1, .h1 {
+        @apply text-[4rem];
     }
 }

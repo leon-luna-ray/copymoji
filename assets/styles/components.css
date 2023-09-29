@@ -2,6 +2,6 @@
 
 @layer components {
     .emoji-btn {
-        @apply text-[3rem] hover:cursor-pointer flex justify-center items-center;
+        @apply hover-zoom text-[3rem] flex justify-center items-center;
     }
 }
