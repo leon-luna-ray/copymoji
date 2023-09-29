@@ -2,7 +2,7 @@
   <EmojiGrid />
 </template>
 
-<script setup>
+<!-- <script setup>
 import EmojiGrid from './components/EmojiGrid.vue';
 import HelloWorld from './components/HelloWorld.vue'
-</script>
+</script> -->

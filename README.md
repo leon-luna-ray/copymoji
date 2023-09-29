@@ -8,6 +8,7 @@ This is a web app that allows desktop computer users to easily find and copy emo
 
 ## Technologies
 
+- Nuxt.js
 - Cloudflare
 - CSS3
 - HTML5
