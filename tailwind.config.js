@@ -19,7 +19,11 @@ module.exports = {
         // '2xl': '6rem',
       },
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        young: ['Young Serif', 'serif'],
+      },
+    },
   },
   variants: {
     extend: {
