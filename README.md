@@ -1,4 +1,4 @@
-# Copymoji 👯‍♀️
+# CopyMoji 👯‍♀️
 
 🚧 In development 🚧
 
