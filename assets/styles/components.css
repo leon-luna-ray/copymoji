@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+    .emoji-btn {
+        @apply text-[3rem] hover:cursor-pointer flex justify-center items-center;
+    }
+}

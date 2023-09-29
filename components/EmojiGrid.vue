@@ -1,6 +1,7 @@
 <template>
     <div class="container grid grid-cols-10">
-        <div v-for="emoji in emojis.nature" class="text-[3rem] hover:cursor-pointer" @click="copyToClipboard(emoji)"><span>
+        <div v-for="emoji in emojis.nature" class="emoji-btn" @click="copyToClipboard(emoji)">
+            <span>
                 {{ emoji }}
             </span>
         </div>

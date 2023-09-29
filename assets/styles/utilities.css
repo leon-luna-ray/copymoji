@@ -1,0 +1,13 @@
+@tailwind utilities;
+
+@layer utilities {
+    .red-border {
+        @apply border-2 border-red-500;
+    }
+    .green-border {
+        @apply border-2 border-green-500;
+    }
+    .blue-border {
+        @apply border-2 border-blue-500;
+    }
+}

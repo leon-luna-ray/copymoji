@@ -10,5 +10,10 @@ module.exports = {
   theme: {
     extend: {},
   },
+  variants: {
+    extend: {
+      dark: ['responsive', 'hover'],
+    },
+  },
   plugins: [],
 }
