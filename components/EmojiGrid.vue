@@ -1,16 +1,15 @@
 <template>
     <div class="container grid grid-cols-12">
-        <div v-for="emoji in emojis.nature" class="emoji-btn" @click="copyToClipboard(emoji)">
-            <span>
-                {{ emoji }}
-            </span>
+        <div v-for="emoji in emojis" class="emoji-btn" @click="copyToClipboard(emoji.emoji)">
+            <h1>{{ emoji.emoji }}</h1>
         </div>
     </div>
-    <div>Copied to clipboard!</div>
+    <!-- <div>Copied to clipboard!</div> -->
 </template>
 
 <script setup>
-import { emojis } from '../lib/emojis'
+import { groups, subgroups, hierarchy } from 'emojibase-data/meta/groups.json';
+import emojis from 'emojibase-data/en/data.json';
 
 const copyToClipboard = (text) => {
     const textarea = document.createElement('textarea');
